@@ -24,7 +24,15 @@ public class Picture
     {
         // nothing to do... instance variables are automatically set to null
     }
-
+    
+    public void moveSun(){
+        if (sun != null)
+    
+        sun.slowMoveVertical(100);
+        
+        
+    }
+    
     /**
      * Draw this picture.
      */
@@ -58,13 +66,13 @@ public class Picture
 
         
         tierra = new Circle();
-        tierra.changeSize(1500);
+        tierra.changeSize(1500);    
          tierra.moveHorizontal(-700);
         tierra.moveVertical(140);
         tierra.changeColor("green");
         tierra.makeVisible();
         
-                sun.slowMoveVertical(50);
+      
         
         
     }

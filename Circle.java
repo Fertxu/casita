@@ -37,7 +37,7 @@ public class Circle
     }
     
     /**
-     * Make this circle invisible. If it was already invisible, do nothing.
+     * Make this  circle invisible. If it was already invisible, do nothing.
      */
     public void makeInvisible()
     {
