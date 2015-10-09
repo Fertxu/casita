@@ -55,6 +55,7 @@ public class Picture
         sun.moveVertical(-40);
         sun.changeSize(80);
         sun.makeVisible();
+
         
         tierra = new Circle();
         tierra.changeSize(1500);
@@ -63,6 +64,7 @@ public class Picture
         tierra.changeColor("green");
         tierra.makeVisible();
         
+                sun.slowMoveVertical(50);
         
         
     }
