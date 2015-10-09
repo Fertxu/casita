@@ -16,6 +16,7 @@ public class Picture
     private Triangle roof;
     private Circle sun;
     private Circle tierra;
+    private Person p1;
 
     /**
      * Constructor for objects of class Picture
@@ -36,7 +37,18 @@ public class Picture
         
     }
     
-    /**
+    public void crearPersona(){
+    
+        
+        
+            p1 = new Person();
+            p1.moveHorizontal(-200);
+            p1.makeVisible();
+            p1.slowMoveHorizontal(40);
+        
+    }
+    
+    /*
      * Draw this picture.
      */
     public void draw()
