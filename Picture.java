@@ -17,6 +17,9 @@ public class Picture
     private Circle sun;
     private Circle tierra;
     private Person p1;
+    private Triangle t1;
+    private Triangle t2;
+    private Triangle t3;
 
     /**
      * Constructor for objects of class Picture
@@ -37,6 +40,29 @@ public class Picture
         
     }
     
+    public void crearTriangulos(){
+    
+        t1= new Triangle();
+        t2 = new Triangle();
+        t3= new Triangle();
+        t2.moveRight();
+        t3.moveLeft();
+        t2.changeColor("blue");
+        t3.changeColor("red");
+        t1.makeVisible();
+        t2.makeVisible();
+        t3.makeVisible();
+    }
+    
+    public void moverTriangulos(){
+    if(t1 !=null && t2 !=null && t3 !=null) 
+    {
+    t1.slowMoveHorizontal(40);
+    t2.slowMoveHorizontal(-30);
+    t3.slowMoveHorizontal(80);
+}
+    
+    }
     public void crearPersona(){
     
         
