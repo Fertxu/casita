@@ -50,18 +50,12 @@ public class Picture
         roof.makeVisible();
 
         sun = new Circle();
-        sun.changeColor("blue");
+        sun.changeColor("yellow");
         sun.moveHorizontal(100);
         sun.moveVertical(-40);
         sun.changeSize(80);
         sun.makeVisible();
         
-        sun2= new Circle();
-        sun2.moveHorizontal(-50);
-        sun2.makeVisible();
-        sun2.changeColor("green");
-        sun2.moveHorizontal(-100);
-        sun2.moveVertical(-40);
         
         
     }

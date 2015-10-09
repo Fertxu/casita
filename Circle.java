@@ -4,7 +4,7 @@ import java.awt.geom.*;
 /**
  * A circle that can be manipulated and that draws itself on a canvas.
  * 
- * @author  Michael Kšlling and David J. Barnes
+ * @author  Michael Kï¿½lling and David J. Barnes
  * @version 2011.07.31
  */
 
@@ -104,7 +104,7 @@ public class Circle
     {
         int delta;
 
-        if(distance < 0) 
+        if(distance < 0)  
         {
             delta = -1;
             distance = -distance;
