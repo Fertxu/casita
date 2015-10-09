@@ -30,6 +30,9 @@ public class Picture
     
         sun.slowMoveVertical(100);
         
+           setBlackAndWhite();
+        
+        
         
     }
     
